@@ -1,0 +1,37 @@
+[0.026s] Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_nav2_plugins -- -j8 -l8
+[0.106s] [ 40%] Built target pb_back_up_frees_space_behavior
+[0.172s] [100%] Built target layers
+[0.226s] Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_nav2_plugins -- -j8 -l8
+[0.227s] Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_nav2_plugins
+[0.278s] -- Install configuration: "Release"
+[0.278s] -- Execute custom install script
+[0.278s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins//behavior_plugin.xml
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins//costmap_plugins.xml
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/behaviors/back_up_free_space.hpp
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/layers/intensity_obstacle_layer.hpp
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/include/pb_nav2_plugins/layers/intensity_voxel_layer.hpp
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/library_path.sh
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/library_path.dsv
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/lib/libpb_back_up_frees_space_behavior.so
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/lib/liblayers.so
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/ament_index/resource_index/package_run_dependencies/pb_nav2_plugins
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/ament_index/resource_index/parent_prefix_path/pb_nav2_plugins
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/ament_prefix_path.sh
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/ament_prefix_path.dsv
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/path.sh
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/environment/path.dsv
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.bash
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.sh
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.zsh
+[0.279s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/local_setup.dsv
+[0.280s] -- Symlinking: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.dsv
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/ament_index/resource_index/packages/pb_nav2_plugins
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/ament_index/resource_index/nav2_core__pluginlib__plugin/pb_nav2_plugins
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/pb_nav2_plugins
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/pb_nav2_pluginsConfig.cmake
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/cmake/pb_nav2_pluginsConfig-version.cmake
+[0.280s] -- Up-to-date symlink: /home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.xml
+[0.297s] Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_nav2_plugins

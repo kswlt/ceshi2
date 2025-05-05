@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/referee_msg/rosidl_generator_py/referee_msg/msg/__init__.py

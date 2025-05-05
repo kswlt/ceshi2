@@ -1,0 +1,17 @@
+[0.815s] Invoking command in '/home/adam/ros_ws/build/my_serial_py': PYTHONPATH=/home/adam/ros_ws/build/my_serial_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/ros_ws/install/my_serial_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam/ros_ws/build/my_serial_py/build --no-deps symlink_data
+[0.997s] running develop
+[1.100s] running egg_info
+[1.100s] writing my_serial_py.egg-info/PKG-INFO
+[1.101s] writing dependency_links to my_serial_py.egg-info/dependency_links.txt
+[1.101s] writing entry points to my_serial_py.egg-info/entry_points.txt
+[1.101s] writing requirements to my_serial_py.egg-info/requires.txt
+[1.101s] writing top-level names to my_serial_py.egg-info/top_level.txt
+[1.103s] reading manifest file 'my_serial_py.egg-info/SOURCES.txt'
+[1.103s] writing manifest file 'my_serial_py.egg-info/SOURCES.txt'
+[1.104s] running build_ext
+[1.104s] Creating /home/adam/ros_ws/install/my_serial_py/lib/python3.10/site-packages/my-serial-py.egg-link (link to .)
+[1.105s] Installing serial_node script to /home/adam/ros_ws/install/my_serial_py/lib/my_serial_py
+[1.105s] 
+[1.105s] Installed /home/adam/ros_ws/build/my_serial_py
+[1.105s] running symlink_data
+[1.132s] Invoked command in '/home/adam/ros_ws/build/my_serial_py' returned '0': PYTHONPATH=/home/adam/ros_ws/build/my_serial_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/ros_ws/install/my_serial_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam/ros_ws/build/my_serial_py/build --no-deps symlink_data

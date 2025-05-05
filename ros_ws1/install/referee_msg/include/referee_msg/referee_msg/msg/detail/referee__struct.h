@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/referee_msg/rosidl_generator_c/referee_msg/msg/detail/referee__struct.h

@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/pointcloud_to_laserscan/ament_cmake_environment_hooks/local_setup.sh

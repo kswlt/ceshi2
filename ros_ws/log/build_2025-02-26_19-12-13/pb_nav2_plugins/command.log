@@ -1,0 +1,6 @@
+Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_nav2_plugins
+Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_nav2_plugins
+Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_nav2_plugins -- -j8 -l8
+Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_nav2_plugins -- -j8 -l8
+Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_nav2_plugins
+Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_nav2_plugins

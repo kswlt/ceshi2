@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/referee_msg/rosidl_typesupport_fastrtps_cpp/referee_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

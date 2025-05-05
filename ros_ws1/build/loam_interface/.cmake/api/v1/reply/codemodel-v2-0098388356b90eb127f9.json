@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4bec29c988a1769cf6d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "loam_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "loam_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loam_interface-Release-82a9cab43ff6cf4ce1c8.json",
+					"name" : "loam_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "loam_interface_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loam_interface_node-Release-5af63733b1cf7ed66772.json",
+					"name" : "loam_interface_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "loam_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loam_interface_uninstall-Release-14f9521077fc7d0ca96d.json",
+					"name" : "loam_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0bf99228b4bcf030f9a9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/ros_ws1/build/loam_interface",
+		"source" : "/home/adam/ros_ws1/src/pb2025_sentry_nav/loam_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

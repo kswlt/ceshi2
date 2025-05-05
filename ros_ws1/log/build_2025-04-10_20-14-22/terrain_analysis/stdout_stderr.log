@@ -1,0 +1,29 @@
+[ 50%] Built target terrain_analysis_node
+[100%] Built target terrain_analysis
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/lib/terrain_analysis/terrain_analysis_node
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/include/terrain_analysis/terrain_analysis.hpp
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/library_path.sh
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/library_path.dsv
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/lib/libterrain_analysis.so
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis_launch.py
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+-- Symlinking: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/package.dsv
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/rclcpp_components/terrain_analysis
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+-- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/package.xml

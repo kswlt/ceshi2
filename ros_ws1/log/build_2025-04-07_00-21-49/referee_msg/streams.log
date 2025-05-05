@@ -1,0 +1,131 @@
+[0.213s] Invoking command in '/home/adam/ros_ws1/build/referee_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/referee_msg -- -j8 -l8
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_generator_c[0m
+[0.369s] [  3%] Built target referee_msg__cpp
+[0.383s] [ 12%] Built target referee_msg__rosidl_generator_c
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_introspection_cpp[0m
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_cpp[0m
+[0.408s] [ 12%] Built target ament_cmake_python_symlink_referee_msg
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_fastrtps_cpp[0m
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_c[0m
+[0.440s] [ 22%] Built target referee_msg__rosidl_typesupport_cpp
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_introspection_c[0m
+[0.443s] [ 32%] Built target referee_msg__rosidl_typesupport_introspection_cpp
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_fastrtps_c[0m
+[0.462s] [ 41%] Built target referee_msg__rosidl_typesupport_c
+[0.472s] [ 51%] Built target referee_msg__rosidl_typesupport_fastrtps_cpp
+[0.488s] [ 61%] Built target referee_msg__rosidl_typesupport_introspection_c
+[0.495s] [ 70%] Built target referee_msg__rosidl_typesupport_fastrtps_c
+[0.536s] [ 70%] Built target referee_msg
+[0.560s] [ 74%] Built target referee_msg__py
+[0.580s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_generator_py[0m
+[0.598s] [ 80%] Built target referee_msg__rosidl_generator_py
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_c__pyext[0m
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target referee_msg__rosidl_typesupport_introspection_c__pyext[0m
+[0.636s] [ 87%] Built target referee_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.637s] [ 93%] Built target referee_msg__rosidl_typesupport_introspection_c__pyext
+[0.646s] [100%] Built target referee_msg__rosidl_typesupport_c__pyext
+[0.794s] running egg_info
+[0.796s] writing referee_msg.egg-info/PKG-INFO
+[0.800s] writing dependency_links to referee_msg.egg-info/dependency_links.txt
+[0.800s] writing top-level names to referee_msg.egg-info/top_level.txt
+[0.800s] reading manifest file 'referee_msg.egg-info/SOURCES.txt'
+[0.803s] writing manifest file 'referee_msg.egg-info/SOURCES.txt'
+[0.841s] [100%] Built target ament_cmake_python_build_referee_msg_egg
+[1.070s] Invoked command in '/home/adam/ros_ws1/build/referee_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/referee_msg -- -j8 -l8
+[1.076s] Invoking command in '/home/adam/ros_ws1/build/referee_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/referee_msg
+[1.108s] -- Install configuration: "Release"
+[1.108s] -- Execute custom install script
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/ament_index/resource_index/rosidl_interfaces/referee_msg
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__functions.h
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__struct.h
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__type_support.h
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/referee.h
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/rosidl_generator_c__visibility_control.h
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/library_path.sh
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/library_path.dsv
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__rosidl_typesupport_fastrtps_c.h
+[1.109s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__rosidl_typesupport_introspection_c.h
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__builder.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__struct.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__traits.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__type_support.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/referee.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/include/referee_msg/referee_msg/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/pythonpath.sh
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/pythonpath.dsv
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.110s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg-0.0.0-py3.10.egg-info/top_level.txt
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/__init__.py
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/_referee_msg_s.ep.rosidl_typesupport_c.c
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/_referee_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/_referee_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/libreferee_msg__rosidl_generator_py.so
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/msg/__init__.py
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/msg/_referee.py
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/msg/_referee_s.c
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/referee_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.111s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/referee_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.118s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/referee_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.118s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/referee_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.118s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/referee_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.118s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/referee_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.118s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/msg/Referee.idl
+[1.118s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/msg/Referee.msg
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/ament_index/resource_index/package_run_dependencies/referee_msg
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/ament_index/resource_index/parent_prefix_path/referee_msg
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/ament_prefix_path.sh
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/ament_prefix_path.dsv
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/path.sh
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/environment/path.dsv
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/local_setup.bash
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/local_setup.sh
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/local_setup.zsh
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/local_setup.dsv
+[1.119s] -- Symlinking: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/package.dsv
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/ament_index/resource_index/packages/referee_msg
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/rosidl_cmake-extras.cmake
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.119s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msgConfig.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msgConfig-version.cmake
+[1.120s] -- Up-to-date symlink: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/package.xml
+[1.120s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_generator_c.so
+[1.120s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_typesupport_fastrtps_c.so
+[1.120s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_typesupport_introspection_c.so
+[1.123s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_typesupport_c.so
+[1.123s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.123s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_typesupport_introspection_cpp.so
+[1.123s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_typesupport_cpp.so
+[1.165s] Listing '/home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg'...
+[1.166s] Listing '/home/adam/ros_ws1/install/referee_msg/local/lib/python3.10/dist-packages/referee_msg/msg'...
+[1.172s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/lib/libreferee_msg__rosidl_generator_py.so
+[1.172s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_generator_cExport.cmake
+[1.172s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_generator_cExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_introspection_cExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_cExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_cExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_generator_cppExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_cppExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/referee_msg__rosidl_typesupport_cppExport-release.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_generator_pyExport.cmake
+[1.173s] -- Up-to-date: /home/adam/ros_ws1/install/referee_msg/share/referee_msg/cmake/export_referee_msg__rosidl_generator_pyExport-release.cmake
+[1.226s] Invoked command in '/home/adam/ros_ws1/build/referee_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/referee_msg

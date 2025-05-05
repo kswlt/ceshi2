@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-966d1c69a4d60d2b899e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sensor_scan_generation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_scan_generation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_scan_generation-Release-bf5299adf702a7e63435.json",
+					"name" : "sensor_scan_generation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_scan_generation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_scan_generation_node-Release-8ce11f25f4b8397e550c.json",
+					"name" : "sensor_scan_generation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_scan_generation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_scan_generation_uninstall-Release-b63f67b5cdecaf518cb1.json",
+					"name" : "sensor_scan_generation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3d9a0f4419afade3dbb8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/ros_ws1/build/sensor_scan_generation",
+		"source" : "/home/adam/ros_ws1/src/pb2025_sentry_nav/sensor_scan_generation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

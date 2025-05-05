@@ -1,0 +1,9 @@
+source;share/rm_static_tf/hook/pythonpath.ps1
+source;share/rm_static_tf/hook/pythonpath.dsv
+source;share/rm_static_tf/hook/pythonpath.sh
+source;share/rm_static_tf/hook/ament_prefix_path.ps1
+source;share/rm_static_tf/hook/ament_prefix_path.dsv
+source;share/rm_static_tf/hook/ament_prefix_path.sh
+source;../../build/rm_static_tf/share/rm_static_tf/hook/pythonpath_develop.ps1
+source;../../build/rm_static_tf/share/rm_static_tf/hook/pythonpath_develop.dsv
+source;../../build/rm_static_tf/share/rm_static_tf/hook/pythonpath_develop.sh

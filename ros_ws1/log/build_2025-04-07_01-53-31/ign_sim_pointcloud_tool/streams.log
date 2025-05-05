@@ -1,0 +1,32 @@
+[0.040s] Invoking command in '/home/adam/ros_ws1/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/ign_sim_pointcloud_tool -- -j8 -l8
+[0.242s] [ 50%] Built target ign_sim_pointcloud_tool_node
+[0.261s] [100%] Built target ign_sim_pointcloud_tool
+[0.300s] Invoked command in '/home/adam/ros_ws1/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/ign_sim_pointcloud_tool -- -j8 -l8
+[0.305s] Invoking command in '/home/adam/ros_ws1/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/ign_sim_pointcloud_tool
+[0.334s] -- Install configuration: "Release"
+[0.334s] -- Execute custom install script
+[0.338s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/lib/ign_sim_pointcloud_tool/ign_sim_pointcloud_tool_node
+[0.339s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/include/ign_sim_pointcloud_tool/point_cloud_converter.hpp
+[0.344s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/library_path.sh
+[0.345s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/library_path.dsv
+[0.345s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/lib/libign_sim_pointcloud_tool.so
+[0.346s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/package_run_dependencies/ign_sim_pointcloud_tool
+[0.346s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/parent_prefix_path/ign_sim_pointcloud_tool
+[0.346s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/ament_prefix_path.sh
+[0.346s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/ament_prefix_path.dsv
+[0.347s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/path.sh
+[0.347s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/path.dsv
+[0.347s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.bash
+[0.347s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.sh
+[0.348s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.zsh
+[0.348s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.dsv
+[0.348s] -- Symlinking: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.dsv
+[0.355s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/packages/ign_sim_pointcloud_tool
+[0.355s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/rclcpp_components/ign_sim_pointcloud_tool
+[0.355s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.356s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.356s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ament_cmake_export_libraries-extras.cmake
+[0.359s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ign_sim_pointcloud_toolConfig.cmake
+[0.359s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ign_sim_pointcloud_toolConfig-version.cmake
+[0.359s] -- Up-to-date symlink: /home/adam/ros_ws1/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.xml
+[0.430s] Invoked command in '/home/adam/ros_ws1/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/ign_sim_pointcloud_tool

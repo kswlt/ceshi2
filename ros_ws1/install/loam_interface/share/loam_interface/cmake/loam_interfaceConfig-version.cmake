@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/loam_interface/ament_cmake_core/loam_interfaceConfig-version.cmake

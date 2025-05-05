@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/ign_sim_pointcloud_tool/ament_cmake_environment_hooks/local_setup.bash

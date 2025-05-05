@@ -1,0 +1,87 @@
+[0.032s] Invoking command in '/home/adam/ros_ws1/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws1/src/pb2025_sentry_nav/fake_vel_transform -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws1/install/fake_vel_transform
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.281s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.289s] -- Detecting CXX compiler ABI info
+[0.396s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.419s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.644s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.734s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.912s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.914s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.924s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.957s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.007s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.009s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.098s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.131s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.187s] -- Looking for pthread.h
+[1.285s] -- Looking for pthread.h - found
+[1.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.369s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.371s] -- Found Threads: TRUE  
+[1.611s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.611s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.612s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.638s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.671s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.673s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.673s] -- Configured cppcheck include dirs: /home/adam/ros_ws1/src/pb2025_sentry_nav/fake_vel_transform/include
+[1.674s] -- Configured cppcheck exclude dirs and/or files: 
+[1.675s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.675s] -- Configured cpplint exclude dirs and/or files: 
+[1.676s] -- Added test 'lint_cmake' to check CMake code style
+[1.677s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.677s] -- Added test 'xmllint' to check XML markup files
+[1.678s] -- Added test 'clang_format' to check C / C++ code style
+[1.681s] -- Added test 'black' to check Python code style
+[1.690s] -- Configuring done
+[1.727s] -- Generating done
+[1.734s] -- Build files have been written to: /home/adam/ros_ws1/build/fake_vel_transform
+[1.761s] Invoked command in '/home/adam/ros_ws1/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws1/src/pb2025_sentry_nav/fake_vel_transform -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws1/install/fake_vel_transform
+[1.761s] Invoking command in '/home/adam/ros_ws1/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/fake_vel_transform -- -j8 -l8
+[2.237s] [ 25%] [32mBuilding CXX object CMakeFiles/fake_vel_transform.dir/src/fake_vel_transform.cpp.o[0m
+[2.237s] [ 50%] [32mBuilding CXX object CMakeFiles/fake_vel_transform_node.dir/rclcpp_components/node_main_fake_vel_transform_node.cpp.o[0m
+[8.408s] [ 75%] [32m[1mLinking CXX executable fake_vel_transform_node[0m
+[8.661s] [ 75%] Built target fake_vel_transform_node
+[54.852s] [100%] [32m[1mLinking CXX shared library libfake_vel_transform.so[0m
+[55.383s] [100%] Built target fake_vel_transform
+[55.399s] Invoked command in '/home/adam/ros_ws1/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/fake_vel_transform -- -j8 -l8
+[55.400s] Invoking command in '/home/adam/ros_ws1/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/fake_vel_transform
+[55.408s] -- Install configuration: "Release"
+[55.408s] -- Execute custom install script
+[55.408s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/lib/fake_vel_transform/fake_vel_transform_node
+[55.419s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/include/fake_vel_transform/fake_vel_transform.hpp
+[55.430s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.sh
+[55.441s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.dsv
+[55.453s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/lib/libfake_vel_transform.so
+[55.466s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/launch/fake_vel_transform_launch.py
+[55.478s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/package_run_dependencies/fake_vel_transform
+[55.489s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/parent_prefix_path/fake_vel_transform
+[55.502s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.sh
+[55.512s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.dsv
+[55.522s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/path.sh
+[55.534s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/path.dsv
+[55.545s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.bash
+[55.556s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.sh
+[55.569s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.zsh
+[55.581s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.dsv
+[55.592s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/package.dsv
+[55.602s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/packages/fake_vel_transform
+[55.613s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/rclcpp_components/fake_vel_transform
+[55.625s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.636s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.648s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_libraries-extras.cmake
+[55.663s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig.cmake
+[55.673s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig-version.cmake
+[55.686s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/package.xml
+[55.697s] Invoked command in '/home/adam/ros_ws1/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/fake_vel_transform

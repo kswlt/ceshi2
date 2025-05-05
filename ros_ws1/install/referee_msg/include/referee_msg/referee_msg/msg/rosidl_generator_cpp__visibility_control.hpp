@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/referee_msg/rosidl_generator_cpp/referee_msg/msg/rosidl_generator_cpp__visibility_control.hpp

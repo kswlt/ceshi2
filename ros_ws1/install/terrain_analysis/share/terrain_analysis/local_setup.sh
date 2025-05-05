@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/terrain_analysis/ament_cmake_environment_hooks/local_setup.sh

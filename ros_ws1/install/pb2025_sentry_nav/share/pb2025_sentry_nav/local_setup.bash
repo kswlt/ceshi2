@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/pb2025_sentry_nav/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/pb2025_nav_bringup/ament_cmake_core/pb2025_nav_bringupConfig.cmake

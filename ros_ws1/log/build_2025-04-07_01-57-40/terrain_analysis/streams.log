@@ -1,0 +1,33 @@
+[0.075s] Invoking command in '/home/adam/ros_ws1/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/terrain_analysis -- -j8 -l8
+[0.609s] [ 50%] Built target terrain_analysis
+[0.609s] [100%] Built target terrain_analysis_node
+[0.609s] Invoked command in '/home/adam/ros_ws1/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/terrain_analysis -- -j8 -l8
+[0.611s] Invoking command in '/home/adam/ros_ws1/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/terrain_analysis
+[0.620s] -- Install configuration: "Release"
+[0.620s] -- Execute custom install script
+[0.620s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/lib/terrain_analysis/terrain_analysis_node
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/include/terrain_analysis/terrain_analysis.hpp
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/library_path.sh
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/library_path.dsv
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/lib/libterrain_analysis.so
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis_launch.py
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[0.621s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[0.626s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[0.627s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[0.627s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[0.627s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[0.627s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[0.627s] -- Symlinking: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/package.dsv
+[0.636s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[0.638s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/ament_index/resource_index/rclcpp_components/terrain_analysis
+[0.638s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.639s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.639s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/ament_cmake_export_libraries-extras.cmake
+[0.639s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[0.639s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[0.639s] -- Up-to-date symlink: /home/adam/ros_ws1/install/terrain_analysis/share/terrain_analysis/package.xml
+[0.657s] Invoked command in '/home/adam/ros_ws1/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/terrain_analysis

@@ -1,0 +1,35 @@
+[0.057s] Invoking command in '/home/adam/ros_ws1/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/loam_interface -- -j8 -l8
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target loam_interface[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target loam_interface_node[0m
+[0.276s] [ 50%] Built target loam_interface_node
+[0.303s] [100%] Built target loam_interface
+[0.356s] Invoked command in '/home/adam/ros_ws1/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/loam_interface -- -j8 -l8
+[0.359s] Invoking command in '/home/adam/ros_ws1/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/loam_interface
+[0.384s] -- Install configuration: "Release"
+[0.398s] -- Execute custom install script
+[0.400s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/lib/loam_interface/loam_interface_node
+[0.401s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/include/loam_interface/loam_interface.hpp
+[0.401s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/environment/library_path.sh
+[0.402s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/environment/library_path.dsv
+[0.402s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/lib/libloam_interface.so
+[0.408s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/launch/loam_interface_launch.py
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/environment/path.sh
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/environment/path.dsv
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/local_setup.bash
+[0.410s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/local_setup.sh
+[0.411s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/local_setup.zsh
+[0.413s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/local_setup.dsv
+[0.413s] -- Symlinking: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/package.dsv
+[0.448s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[0.448s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/ament_index/resource_index/rclcpp_components/loam_interface
+[0.448s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.448s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.448s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.448s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[0.460s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[0.460s] -- Up-to-date symlink: /home/adam/ros_ws1/install/loam_interface/share/loam_interface/package.xml
+[0.496s] Invoked command in '/home/adam/ros_ws1/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/loam_interface

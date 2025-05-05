@@ -1,0 +1,8 @@
+setup.py
+referee_msg/__init__.py
+referee_msg.egg-info/PKG-INFO
+referee_msg.egg-info/SOURCES.txt
+referee_msg.egg-info/dependency_links.txt
+referee_msg.egg-info/top_level.txt
+referee_msg/msg/__init__.py
+referee_msg/msg/_referee.py

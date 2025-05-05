@@ -1,0 +1,42 @@
+[0.195s] Invoking command in '/home/adam/ros_ws1/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/pointcloud_to_laserscan -- -j8 -l8
+[0.276s] [ 20%] Built target laserscan_to_pointcloud_node
+[0.296s] [ 40%] Built target pointcloud_to_laserscan_node
+[0.314s] [ 60%] Built target laserscan_to_pointcloud
+[0.353s] [ 80%] Built target pointcloud_to_laserscan
+[0.374s] [100%] Built target dummy_pointcloud_publisher
+[0.719s] Invoked command in '/home/adam/ros_ws1/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/pointcloud_to_laserscan -- -j8 -l8
+[0.722s] Invoking command in '/home/adam/ros_ws1/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/pointcloud_to_laserscan
+[0.745s] -- Install configuration: "Release"
+[0.745s] -- Execute custom install script
+[0.745s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[0.745s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[0.745s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[0.745s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[0.745s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[0.746s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[0.747s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[0.747s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[0.747s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[0.747s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[0.747s] -- Symlinking: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[0.753s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[0.755s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[0.755s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.755s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.756s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[0.756s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[0.756s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[0.756s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[0.824s] Invoked command in '/home/adam/ros_ws1/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/pointcloud_to_laserscan

@@ -1,0 +1,35 @@
+[0.085s] Invoking command in '/home/adam/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/small_gicp_relocalization -- -j8 -l8
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target small_gicp_relocalization[0m
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target small_gicp_relocalization_node[0m
+[0.138s] [ 50%] Built target small_gicp_relocalization_node
+[0.146s] [100%] Built target small_gicp_relocalization
+[0.458s] Invoked command in '/home/adam/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/small_gicp_relocalization -- -j8 -l8
+[0.459s] Invoking command in '/home/adam/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/small_gicp_relocalization
+[0.478s] -- Install configuration: "Release"
+[0.478s] -- Execute custom install script
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/lib/small_gicp_relocalization/small_gicp_relocalization_node
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/include/small_gicp_relocalization/small_gicp_relocalization.hpp
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.sh
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.dsv
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/lib/libsmall_gicp_relocalization.so
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/small_gicp_relocalization_launch.py
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/package_run_dependencies/small_gicp_relocalization
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/parent_prefix_path/small_gicp_relocalization
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.sh
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.dsv
+[0.478s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.sh
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.dsv
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.bash
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.sh
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.zsh
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.dsv
+[0.479s] -- Symlinking: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/packages/small_gicp_relocalization
+[0.479s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/ament_index/resource_index/rclcpp_components/small_gicp_relocalization
+[0.480s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.480s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.480s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_libraries-extras.cmake
+[0.480s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig.cmake
+[0.480s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig-version.cmake
+[0.480s] -- Up-to-date symlink: /home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.xml
+[0.489s] Invoked command in '/home/adam/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/small_gicp_relocalization

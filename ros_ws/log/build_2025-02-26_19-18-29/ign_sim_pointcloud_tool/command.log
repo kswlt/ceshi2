@@ -1,0 +1,4 @@
+Invoking command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/ign_sim_pointcloud_tool -- -j8 -l8
+Invoked command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/ign_sim_pointcloud_tool -- -j8 -l8
+Invoking command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/ign_sim_pointcloud_tool
+Invoked command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/ign_sim_pointcloud_tool

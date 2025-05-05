@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/small_gicp_relocalization/ament_cmake_environment_hooks/local_setup.sh

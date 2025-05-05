@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/referee_msg/rosidl_typesupport_fastrtps_c/referee_msg/msg/detail/referee__rosidl_typesupport_fastrtps_c.h

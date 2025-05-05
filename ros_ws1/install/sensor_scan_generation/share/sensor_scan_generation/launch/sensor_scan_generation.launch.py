@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/src/pb2025_sentry_nav/sensor_scan_generation/launch/sensor_scan_generation.launch.py

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fc5e5bfeeca32b46f239.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "terrain_analysis",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis-Release-e97c29f2d8ef815f5deb.json",
+					"name" : "terrain_analysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis_node-Release-2c2410bd4f74bf3ba9f2.json",
+					"name" : "terrain_analysis_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis_uninstall-Release-1453b6e2d813d1c04d33.json",
+					"name" : "terrain_analysis_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f3a0edc24bbf0f8a64f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/ros_ws1/build/terrain_analysis",
+		"source" : "/home/adam/ros_ws1/src/pb2025_sentry_nav/terrain_analysis"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

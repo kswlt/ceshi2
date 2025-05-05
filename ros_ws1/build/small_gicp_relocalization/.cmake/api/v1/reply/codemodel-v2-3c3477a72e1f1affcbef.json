@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7ecc8f10fad72ebfd372.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "small_gicp_relocalization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "small_gicp_relocalization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-small_gicp_relocalization-Release-40646b3412afa98726fb.json",
+					"name" : "small_gicp_relocalization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "small_gicp_relocalization_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-small_gicp_relocalization_node-Release-3adc96da39e9d88cc49f.json",
+					"name" : "small_gicp_relocalization_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "small_gicp_relocalization_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-small_gicp_relocalization_uninstall-Release-1d269ff15c99d1e4b881.json",
+					"name" : "small_gicp_relocalization_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-939736dde47d75af73f4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/ros_ws1/build/small_gicp_relocalization",
+		"source" : "/home/adam/ros_ws1/src/pb2025_sentry_nav/small_gicp_relocalization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,32 @@
+[0.051s] Invoking command in '/home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller -- -j8 -l8
+[0.268s] [100%] Built target pb_omni_pid_pursuit_controller
+[0.311s] Invoked command in '/home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller -- -j8 -l8
+[0.323s] Invoking command in '/home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller
+[0.361s] -- Install configuration: "Release"
+[0.361s] -- Execute custom install script
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller//pb_omni_pid_pursuit_controller.xml
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/include/pb_omni_pid_pursuit_controller/omni_pid_pursuit_controller.hpp
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/include/pb_omni_pid_pursuit_controller/pid.hpp
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/library_path.sh
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/library_path.dsv
+[0.362s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/lib/libpb_omni_pid_pursuit_controller.so
+[0.362s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/pb_omni_pid_pursuit_controller
+[0.362s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/pb_omni_pid_pursuit_controller
+[0.362s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/ament_prefix_path.sh
+[0.363s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/ament_prefix_path.dsv
+[0.363s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/path.sh
+[0.363s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/path.dsv
+[0.363s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.bash
+[0.363s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.sh
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.zsh
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.dsv
+[0.364s] -- Symlinking: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.dsv
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/packages/pb_omni_pid_pursuit_controller
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/pb_omni_pid_pursuit_controller
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/pb_omni_pid_pursuit_controllerConfig.cmake
+[0.365s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/pb_omni_pid_pursuit_controllerConfig-version.cmake
+[0.365s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.xml
+[0.396s] Invoked command in '/home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/pb_omni_pid_pursuit_controller

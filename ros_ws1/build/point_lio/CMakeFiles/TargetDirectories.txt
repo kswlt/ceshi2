@@ -1,0 +1,10 @@
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/uninstall.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/point_lio_uninstall.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/pointlio_mapping.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/test.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/edit_cache.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/rebuild_cache.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/list_install_components.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/install.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/install/local.dir
+/home/adam/ros_ws1/build/point_lio/CMakeFiles/install/strip.dir

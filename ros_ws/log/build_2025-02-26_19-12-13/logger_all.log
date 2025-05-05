@@ -1,0 +1,1132 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.085s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x769db3bb2920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x769db3bb2350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x769db3bb2350>>)
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/ros_ws'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/fake_vel_transform) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/fake_vel_transform' with type 'ros.ament_cmake' and name 'fake_vel_transform'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/ign_sim_pointcloud_tool) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/ign_sim_pointcloud_tool' with type 'ros.ament_cmake' and name 'ign_sim_pointcloud_tool'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/livox_ros_driver2) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/loam_interface) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/loam_interface' with type 'ros.ament_cmake' and name 'loam_interface'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/my_serial_py) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/my_serial_py' with type 'ros.ament_python' and name 'my_serial_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_nav_bringup) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/pb2025_nav_bringup' with type 'ros.ament_cmake' and name 'pb2025_nav_bringup'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb2025_sentry_nav) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/pb2025_sentry_nav' with type 'ros.ament_cmake' and name 'pb2025_sentry_nav'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_nav2_plugins) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/pb_nav2_plugins' with type 'ros.ament_cmake' and name 'pb_nav2_plugins'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller' with type 'ros.ament_cmake' and name 'pb_omni_pid_pursuit_controller'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/pb_teleop_twist_joy) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/pb_teleop_twist_joy' with type 'ros.ament_cmake' and name 'pb_teleop_twist_joy'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/point_lio) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/point_lio' with type 'ros.ament_cmake' and name 'point_lio'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/rm_static_tf) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/rm_static_tf' with type 'ros.ament_python' and name 'rm_static_tf'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/sensor_scan_generation) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/sensor_scan_generation' with type 'ros.ament_cmake' and name 'sensor_scan_generation'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/small_gicp_relocalization) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/small_gicp_relocalization' with type 'ros.ament_cmake' and name 'small_gicp_relocalization'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pb2025_sentry_nav/terrain_analysis) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pb2025_sentry_nav/terrain_analysis' with type 'ros.ament_cmake' and name 'terrain_analysis'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'fake_vel_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/fake_vel_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/fake_vel_transform', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/fake_vel_transform', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ign_sim_pointcloud_tool' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'ign_sim_pointcloud_tool' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/ign_sim_pointcloud_tool', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/ign_sim_pointcloud_tool', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'loam_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/loam_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/loam_interface', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/loam_interface', 'symlink_install': True, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'my_serial_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'my_serial_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/my_serial_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/my_serial_py', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/my_serial_py', 'symlink_install': True, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_nav2_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'pb_nav2_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/pb_nav2_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/pb_nav2_plugins', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pb_omni_pid_pursuit_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'pb_omni_pid_pursuit_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller', 'symlink_install': True, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'pb_teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'pb_teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/pb_teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/pb_teleop_twist_joy', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy', 'symlink_install': True, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'rm_static_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'rm_static_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/rm_static_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/rm_static_tf', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/rm_static_tf', 'symlink_install': True, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_scan_generation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/sensor_scan_generation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/sensor_scan_generation', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/sensor_scan_generation', 'symlink_install': True, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'small_gicp_relocalization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/small_gicp_relocalization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/small_gicp_relocalization', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization', 'symlink_install': True, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_analysis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/terrain_analysis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/terrain_analysis', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/terrain_analysis', 'symlink_install': True, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'pb2025_sentry_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'pb2025_sentry_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/pb2025_sentry_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/pb2025_sentry_nav', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_sentry_nav', 'symlink_install': True, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'point_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/point_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/point_lio', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/point_lio', 'symlink_install': True, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pb2025_nav_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'pb2025_nav_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/ros_ws/build/pb2025_nav_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/ros_ws/install/pb2025_nav_bringup', 'merge_install': False, 'path': '/home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_nav_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.312s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/fake_vel_transform' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/fake_vel_transform'
+[0.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool' with build type 'ament_cmake'
+[0.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/loam_interface' with build type 'ament_cmake'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/loam_interface'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/sensor_scan_generation' with build type 'ament_cmake'
+[0.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/sensor_scan_generation'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller' with build type 'ament_cmake'
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy' with build type 'ament_cmake'
+[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/fake_vel_transform -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/fake_vel_transform
+[0.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/ign_sim_pointcloud_tool
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/livox_ros_driver2
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/loam_interface
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/sensor_scan_generation
+[0.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_nav2_plugins
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_teleop_twist_joy
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/fake_vel_transform -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/fake_vel_transform
+[2.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/fake_vel_transform -- -j8 -l8
+[2.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_omni_pid_pursuit_controller -- -j8 -l8
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_teleop_twist_joy
+[2.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_teleop_twist_joy -- -j8 -l8
+[3.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb_nav2_plugins
+[3.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_nav2_plugins -- -j8 -l8
+[5.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/ign_sim_pointcloud_tool
+[5.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/ign_sim_pointcloud_tool -- -j8 -l8
+[5.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/sensor_scan_generation
+[5.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/sensor_scan_generation -- -j8 -l8
+[5.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/loam_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/loam_interface
+[5.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/loam_interface -- -j8 -l8
+[8.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/livox_ros_driver2
+[8.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/livox_ros_driver2 -- -j8 -l8
+[26.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_omni_pid_pursuit_controller -- -j8 -l8
+[26.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_omni_pid_pursuit_controller
+[34.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_omni_pid_pursuit_controller)
+[34.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/ign_sim_pointcloud_tool -- -j8 -l8
+[34.016s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller' for CMake module files
+[34.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/ign_sim_pointcloud_tool
+[34.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_omni_pid_pursuit_controller
+[34.017s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller' for CMake config files
+[34.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_omni_pid_pursuit_controller', 'cmake_prefix_path')
+[34.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/cmake_prefix_path.ps1'
+[34.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/cmake_prefix_path.dsv'
+[34.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/cmake_prefix_path.sh'
+[34.020s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib'
+[34.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_omni_pid_pursuit_controller', 'ld_library_path_lib')
+[34.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/ld_library_path_lib.ps1'
+[34.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/ld_library_path_lib.dsv'
+[34.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/ld_library_path_lib.sh'
+[34.022s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/bin'
+[34.022s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib/pkgconfig/pb_omni_pid_pursuit_controller.pc'
+[34.022s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib/python3.10/site-packages'
+[34.023s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/bin'
+[34.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.ps1'
+[34.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.dsv'
+[34.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.sh'
+[34.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.bash'
+[34.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.zsh'
+[34.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/colcon-core/packages/pb_omni_pid_pursuit_controller)
+[34.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_omni_pid_pursuit_controller)
+[34.029s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller' for CMake module files
+[34.030s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller' for CMake config files
+[34.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_omni_pid_pursuit_controller', 'cmake_prefix_path')
+[34.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/cmake_prefix_path.ps1'
+[34.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/cmake_prefix_path.dsv'
+[34.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/cmake_prefix_path.sh'
+[34.032s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib'
+[34.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_omni_pid_pursuit_controller', 'ld_library_path_lib')
+[34.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/ld_library_path_lib.ps1'
+[34.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/ld_library_path_lib.dsv'
+[34.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/hook/ld_library_path_lib.sh'
+[34.033s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/bin'
+[34.034s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib/pkgconfig/pb_omni_pid_pursuit_controller.pc'
+[34.034s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib/python3.10/site-packages'
+[34.034s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/bin'
+[34.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.ps1'
+[34.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.dsv'
+[34.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.sh'
+[34.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.bash'
+[34.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.zsh'
+[34.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/share/colcon-core/packages/pb_omni_pid_pursuit_controller)
+[34.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/livox_ros_driver2 -- -j8 -l8
+[34.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/livox_ros_driver2
+[34.045s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization' with build type 'ament_cmake'
+[34.045s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization'
+[34.045s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/small_gicp_relocalization
+[34.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_sim_pointcloud_tool)
+[34.410s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool' for CMake module files
+[34.411s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool' for CMake config files
+[34.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_sim_pointcloud_tool', 'cmake_prefix_path')
+[34.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/cmake_prefix_path.ps1'
+[34.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/cmake_prefix_path.dsv'
+[34.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/cmake_prefix_path.sh'
+[34.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/ign_sim_pointcloud_tool
+[34.414s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib'
+[34.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_sim_pointcloud_tool', 'ld_library_path_lib')
+[34.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/ld_library_path_lib.ps1'
+[34.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/ld_library_path_lib.dsv'
+[34.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/ld_library_path_lib.sh'
+[34.418s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/bin'
+[34.418s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib/pkgconfig/ign_sim_pointcloud_tool.pc'
+[34.418s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib/python3.10/site-packages'
+[34.419s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/bin'
+[34.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.ps1'
+[34.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.dsv'
+[34.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.sh'
+[34.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.bash'
+[34.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.zsh'
+[34.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/colcon-core/packages/ign_sim_pointcloud_tool)
+[34.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_sim_pointcloud_tool)
+[34.440s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool' for CMake module files
+[34.441s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool' for CMake config files
+[34.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_sim_pointcloud_tool', 'cmake_prefix_path')
+[34.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/cmake_prefix_path.ps1'
+[34.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/cmake_prefix_path.dsv'
+[34.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/cmake_prefix_path.sh'
+[34.449s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib'
+[34.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_sim_pointcloud_tool', 'ld_library_path_lib')
+[34.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/ld_library_path_lib.ps1'
+[34.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/ld_library_path_lib.dsv'
+[34.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/hook/ld_library_path_lib.sh'
+[34.456s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/bin'
+[34.457s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib/pkgconfig/ign_sim_pointcloud_tool.pc'
+[34.457s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib/python3.10/site-packages'
+[34.457s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/bin'
+[34.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.ps1'
+[34.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.dsv'
+[34.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.sh'
+[34.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.bash'
+[34.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.zsh'
+[34.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/ign_sim_pointcloud_tool/share/colcon-core/packages/ign_sim_pointcloud_tool)
+[34.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/terrain_analysis' with build type 'ament_cmake'
+[34.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/terrain_analysis'
+[34.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/terrain_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/terrain_analysis
+[34.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_teleop_twist_joy -- -j8 -l8
+[34.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_teleop_twist_joy
+[35.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[35.488s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2' for CMake module files
+[35.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/livox_ros_driver2
+[35.489s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2' for CMake config files
+[35.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[35.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[35.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[35.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[35.495s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/lib'
+[35.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[35.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[35.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[35.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[35.497s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/bin'
+[35.497s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[35.498s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[35.499s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/bin'
+[35.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[35.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[35.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[35.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[35.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[35.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[35.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[35.503s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2' for CMake module files
+[35.504s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2' for CMake config files
+[35.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[35.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[35.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[35.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[35.508s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/lib'
+[35.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[35.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[35.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[35.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[35.510s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/bin'
+[35.510s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[35.511s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[35.511s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/livox_ros_driver2/bin'
+[35.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[35.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[35.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[35.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[35.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[35.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[35.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/point_lio' with build type 'ament_cmake'
+[35.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/point_lio'
+[35.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/point_lio': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/point_lio -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/point_lio
+[36.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_teleop_twist_joy)
+[36.006s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy' for CMake module files
+[36.006s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy' for CMake config files
+[36.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_teleop_twist_joy', 'cmake_prefix_path')
+[36.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[36.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[36.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_teleop_twist_joy
+[36.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/cmake_prefix_path.sh'
+[36.012s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/lib'
+[36.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_teleop_twist_joy', 'ld_library_path_lib')
+[36.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[36.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[36.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/ld_library_path_lib.sh'
+[36.014s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/bin'
+[36.014s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/lib/pkgconfig/pb_teleop_twist_joy.pc'
+[36.014s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/lib/python3.10/site-packages'
+[36.015s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/bin'
+[36.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.ps1'
+[36.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.dsv'
+[36.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.sh'
+[36.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.bash'
+[36.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.zsh'
+[36.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb_teleop_twist_joy/share/colcon-core/packages/pb_teleop_twist_joy)
+[36.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_teleop_twist_joy)
+[36.019s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy' for CMake module files
+[36.019s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy' for CMake config files
+[36.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_teleop_twist_joy', 'cmake_prefix_path')
+[36.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[36.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[36.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/cmake_prefix_path.sh'
+[36.022s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/lib'
+[36.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_teleop_twist_joy', 'ld_library_path_lib')
+[36.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[36.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[36.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/hook/ld_library_path_lib.sh'
+[36.025s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/bin'
+[36.025s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/lib/pkgconfig/pb_teleop_twist_joy.pc'
+[36.025s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/lib/python3.10/site-packages'
+[36.025s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_teleop_twist_joy/bin'
+[36.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.ps1'
+[36.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.dsv'
+[36.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.sh'
+[36.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.bash'
+[36.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.zsh'
+[36.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb_teleop_twist_joy/share/colcon-core/packages/pb_teleop_twist_joy)
+[36.031s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/my_serial_py' with build type 'ament_python'
+[36.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_serial_py', 'ament_prefix_path')
+[36.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/hook/ament_prefix_path.ps1'
+[36.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/hook/ament_prefix_path.dsv'
+[36.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/hook/ament_prefix_path.sh'
+[36.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/fake_vel_transform -- -j8 -l8
+[36.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/fake_vel_transform
+[36.417s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/ros_ws/src/pb2025_sentry_nav/my_serial_py'
+[36.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/my_serial_py': PYTHONPATH=/home/adam/ros_ws/build/my_serial_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/ros_ws/install/my_serial_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam/ros_ws/build/my_serial_py/build --no-deps symlink_data
+[38.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/terrain_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/terrain_analysis
+[38.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_vel_transform)
+[38.944s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform' for CMake module files
+[38.945s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform' for CMake config files
+[38.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_vel_transform', 'cmake_prefix_path')
+[38.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/cmake_prefix_path.ps1'
+[38.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/cmake_prefix_path.dsv'
+[38.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/cmake_prefix_path.sh'
+[38.947s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/lib'
+[38.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_vel_transform', 'ld_library_path_lib')
+[38.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/ld_library_path_lib.ps1'
+[38.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/terrain_analysis -- -j8 -l8
+[38.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/fake_vel_transform
+[38.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/ld_library_path_lib.dsv'
+[38.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/ld_library_path_lib.sh'
+[38.949s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/bin'
+[38.949s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/lib/pkgconfig/fake_vel_transform.pc'
+[38.950s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/lib/python3.10/site-packages'
+[38.950s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/bin'
+[38.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.ps1'
+[38.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.dsv'
+[38.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.sh'
+[38.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.bash'
+[38.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.zsh'
+[38.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/fake_vel_transform/share/colcon-core/packages/fake_vel_transform)
+[38.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_vel_transform)
+[38.954s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform' for CMake module files
+[38.955s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform' for CMake config files
+[38.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_vel_transform', 'cmake_prefix_path')
+[38.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/cmake_prefix_path.ps1'
+[38.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/cmake_prefix_path.dsv'
+[38.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/cmake_prefix_path.sh'
+[38.958s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/lib'
+[38.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_vel_transform', 'ld_library_path_lib')
+[38.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/ld_library_path_lib.ps1'
+[38.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/ld_library_path_lib.dsv'
+[38.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/hook/ld_library_path_lib.sh'
+[38.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/bin'
+[38.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/lib/pkgconfig/fake_vel_transform.pc'
+[38.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/lib/python3.10/site-packages'
+[38.960s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/fake_vel_transform/bin'
+[38.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.ps1'
+[38.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.dsv'
+[38.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.sh'
+[38.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.bash'
+[38.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/fake_vel_transform/share/fake_vel_transform/package.zsh'
+[38.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/fake_vel_transform/share/colcon-core/packages/fake_vel_transform)
+[38.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_serial_py', 'pythonpath_develop')
+[38.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/build/my_serial_py/share/my_serial_py/hook/pythonpath_develop.ps1'
+[38.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/build/my_serial_py/share/my_serial_py/hook/pythonpath_develop.dsv'
+[38.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/build/my_serial_py/share/my_serial_py/hook/pythonpath_develop.sh'
+[38.965s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py' for CMake module files
+[38.966s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py' for CMake config files
+[38.966s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py/lib'
+[38.967s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py/bin'
+[38.967s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py/lib/pkgconfig/my_serial_py.pc'
+[38.967s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py/lib/python3.10/site-packages'
+[38.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_serial_py', 'pythonpath')
+[38.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/hook/pythonpath.ps1'
+[38.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/hook/pythonpath.dsv'
+[38.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/hook/pythonpath.sh'
+[38.969s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/my_serial_py/bin'
+[38.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_serial_py)
+[38.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/package.ps1'
+[38.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/package.dsv'
+[38.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/package.sh'
+[38.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/package.bash'
+[38.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/my_serial_py/share/my_serial_py/package.zsh'
+[38.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/my_serial_py/share/colcon-core/packages/my_serial_py)
+[38.973s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/rm_static_tf' with build type 'ament_python'
+[38.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_static_tf', 'ament_prefix_path')
+[38.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/hook/ament_prefix_path.ps1'
+[38.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/hook/ament_prefix_path.dsv'
+[38.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/hook/ament_prefix_path.sh'
+[38.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/my_serial_py' returned '0': PYTHONPATH=/home/adam/ros_ws/build/my_serial_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/ros_ws/install/my_serial_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam/ros_ws/build/my_serial_py/build --no-deps symlink_data
+[39.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/ros_ws/src/pb2025_sentry_nav/rm_static_tf'
+[39.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/small_gicp_relocalization -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/small_gicp_relocalization
+[39.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/small_gicp_relocalization -- -j8 -l8
+[40.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/rm_static_tf': PYTHONPATH=/home/adam/ros_ws/build/rm_static_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/ros_ws/install/rm_static_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam/ros_ws/build/rm_static_tf/build --no-deps symlink_data
+[40.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/point_lio -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/point_lio
+[40.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_static_tf', 'pythonpath_develop')
+[40.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/point_lio': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/ros_ws/build/point_lio -- -j8 -l8
+[40.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/build/rm_static_tf/share/rm_static_tf/hook/pythonpath_develop.ps1'
+[40.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/build/rm_static_tf/share/rm_static_tf/hook/pythonpath_develop.dsv'
+[40.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/build/rm_static_tf/share/rm_static_tf/hook/pythonpath_develop.sh'
+[40.920s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf' for CMake module files
+[40.920s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf' for CMake config files
+[40.921s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf/lib'
+[40.921s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf/bin'
+[40.921s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf/lib/pkgconfig/rm_static_tf.pc'
+[40.921s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf/lib/python3.10/site-packages'
+[40.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/rm_static_tf' returned '0': PYTHONPATH=/home/adam/ros_ws/build/rm_static_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/ros_ws/install/rm_static_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam/ros_ws/build/rm_static_tf/build --no-deps symlink_data
+[40.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_static_tf', 'pythonpath')
+[40.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/hook/pythonpath.ps1'
+[40.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/hook/pythonpath.dsv'
+[40.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/hook/pythonpath.sh'
+[40.926s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/rm_static_tf/bin'
+[40.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_static_tf)
+[40.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/package.ps1'
+[40.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/package.dsv'
+[40.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/package.sh'
+[40.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/package.bash'
+[40.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/rm_static_tf/share/rm_static_tf/package.zsh'
+[40.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/rm_static_tf/share/colcon-core/packages/rm_static_tf)
+[41.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/loam_interface -- -j8 -l8
+[41.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/loam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/loam_interface
+[41.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(loam_interface)
+[41.728s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface' for CMake module files
+[41.729s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface' for CMake config files
+[41.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'cmake_prefix_path')
+[41.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.ps1'
+[41.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/loam_interface
+[41.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.dsv'
+[41.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.sh'
+[41.735s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/lib'
+[41.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'ld_library_path_lib')
+[41.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/ld_library_path_lib.ps1'
+[41.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/ld_library_path_lib.dsv'
+[41.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/ld_library_path_lib.sh'
+[41.740s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/bin'
+[41.740s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/lib/pkgconfig/loam_interface.pc'
+[41.740s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/lib/python3.10/site-packages'
+[41.741s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/bin'
+[41.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.ps1'
+[41.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.dsv'
+[41.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.sh'
+[41.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.bash'
+[41.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.zsh'
+[41.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/loam_interface/share/colcon-core/packages/loam_interface)
+[41.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(loam_interface)
+[41.755s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface' for CMake module files
+[41.756s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface' for CMake config files
+[41.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'cmake_prefix_path')
+[41.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.ps1'
+[41.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.dsv'
+[41.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.sh'
+[41.767s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/lib'
+[41.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'ld_library_path_lib')
+[41.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/ld_library_path_lib.ps1'
+[41.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/ld_library_path_lib.dsv'
+[41.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/loam_interface/share/loam_interface/hook/ld_library_path_lib.sh'
+[41.769s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/bin'
+[41.769s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/lib/pkgconfig/loam_interface.pc'
+[41.770s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/lib/python3.10/site-packages'
+[41.770s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/loam_interface/bin'
+[41.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.ps1'
+[41.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.dsv'
+[41.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.sh'
+[41.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.bash'
+[41.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/loam_interface/share/loam_interface/package.zsh'
+[41.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/loam_interface/share/colcon-core/packages/loam_interface)
+[48.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/sensor_scan_generation -- -j8 -l8
+[48.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/sensor_scan_generation
+[49.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_scan_generation)
+[49.491s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation' for CMake module files
+[49.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/sensor_scan_generation
+[49.494s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation' for CMake config files
+[49.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'cmake_prefix_path')
+[49.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.ps1'
+[49.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.dsv'
+[49.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.sh'
+[49.496s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/lib'
+[49.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'ld_library_path_lib')
+[49.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/ld_library_path_lib.ps1'
+[49.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/ld_library_path_lib.dsv'
+[49.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/ld_library_path_lib.sh'
+[49.503s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/bin'
+[49.503s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/lib/pkgconfig/sensor_scan_generation.pc'
+[49.504s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/lib/python3.10/site-packages'
+[49.504s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/bin'
+[49.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.ps1'
+[49.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv'
+[49.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.sh'
+[49.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.bash'
+[49.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.zsh'
+[49.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/sensor_scan_generation/share/colcon-core/packages/sensor_scan_generation)
+[49.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_scan_generation)
+[49.512s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation' for CMake module files
+[49.513s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation' for CMake config files
+[49.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'cmake_prefix_path')
+[49.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.ps1'
+[49.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.dsv'
+[49.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.sh'
+[49.519s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/lib'
+[49.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'ld_library_path_lib')
+[49.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/ld_library_path_lib.ps1'
+[49.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/ld_library_path_lib.dsv'
+[49.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/hook/ld_library_path_lib.sh'
+[49.521s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/bin'
+[49.521s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/lib/pkgconfig/sensor_scan_generation.pc'
+[49.524s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/lib/python3.10/site-packages'
+[49.525s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/sensor_scan_generation/bin'
+[49.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.ps1'
+[49.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv'
+[49.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.sh'
+[49.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.bash'
+[49.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.zsh'
+[49.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/sensor_scan_generation/share/colcon-core/packages/sensor_scan_generation)
+[49.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_sentry_nav' with build type 'ament_cmake'
+[49.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_sentry_nav'
+[49.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[49.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[49.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb2025_sentry_nav': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_sentry_nav -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb2025_sentry_nav
+[51.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb2025_sentry_nav' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_sentry_nav -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb2025_sentry_nav
+[51.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb2025_sentry_nav': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/ros_ws/build/pb2025_sentry_nav -- -j8 -l8
+[51.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb2025_sentry_nav' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/ros_ws/build/pb2025_sentry_nav -- -j8 -l8
+[51.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb2025_sentry_nav': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adam/ros_ws/build/pb2025_sentry_nav
+[51.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb2025_sentry_nav)
+[51.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb2025_sentry_nav' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adam/ros_ws/build/pb2025_sentry_nav
+[51.467s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav' for CMake module files
+[51.468s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav' for CMake config files
+[51.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb2025_sentry_nav', 'cmake_prefix_path')
+[51.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/hook/cmake_prefix_path.ps1'
+[51.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/hook/cmake_prefix_path.dsv'
+[51.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/hook/cmake_prefix_path.sh'
+[51.471s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/bin'
+[51.471s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/lib/pkgconfig/pb2025_sentry_nav.pc'
+[51.472s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/lib/python3.10/site-packages'
+[51.472s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/bin'
+[51.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.ps1'
+[51.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.dsv'
+[51.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.sh'
+[51.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.bash'
+[51.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.zsh'
+[51.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb2025_sentry_nav/share/colcon-core/packages/pb2025_sentry_nav)
+[51.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb2025_sentry_nav)
+[51.477s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav' for CMake module files
+[51.478s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav' for CMake config files
+[51.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb2025_sentry_nav', 'cmake_prefix_path')
+[51.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/hook/cmake_prefix_path.ps1'
+[51.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/hook/cmake_prefix_path.dsv'
+[51.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/hook/cmake_prefix_path.sh'
+[51.481s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/bin'
+[51.481s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/lib/pkgconfig/pb2025_sentry_nav.pc'
+[51.482s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/lib/python3.10/site-packages'
+[51.482s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_sentry_nav/bin'
+[51.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.ps1'
+[51.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.dsv'
+[51.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.sh'
+[51.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.bash'
+[51.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.zsh'
+[51.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb2025_sentry_nav/share/colcon-core/packages/pb2025_sentry_nav)
+[60.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/pb_nav2_plugins -- -j8 -l8
+[60.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb_nav2_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_nav2_plugins
+[61.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_nav2_plugins)
+[61.191s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins' for CMake module files
+[61.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb_nav2_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/pb_nav2_plugins
+[61.193s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins' for CMake config files
+[61.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'cmake_prefix_path')
+[61.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.ps1'
+[61.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.dsv'
+[61.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.sh'
+[61.195s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/lib'
+[61.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'ld_library_path_lib')
+[61.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.ps1'
+[61.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.dsv'
+[61.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.sh'
+[61.197s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/bin'
+[61.197s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/lib/pkgconfig/pb_nav2_plugins.pc'
+[61.197s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/lib/python3.10/site-packages'
+[61.197s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/bin'
+[61.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.ps1'
+[61.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.dsv'
+[61.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.sh'
+[61.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.bash'
+[61.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.zsh'
+[61.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb_nav2_plugins/share/colcon-core/packages/pb_nav2_plugins)
+[61.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_nav2_plugins)
+[61.201s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins' for CMake module files
+[61.202s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins' for CMake config files
+[61.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'cmake_prefix_path')
+[61.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.ps1'
+[61.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.dsv'
+[61.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/cmake_prefix_path.sh'
+[61.204s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/lib'
+[61.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_nav2_plugins', 'ld_library_path_lib')
+[61.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.ps1'
+[61.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.dsv'
+[61.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/hook/ld_library_path_lib.sh'
+[61.206s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/bin'
+[61.206s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/lib/pkgconfig/pb_nav2_plugins.pc'
+[61.206s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/lib/python3.10/site-packages'
+[61.206s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb_nav2_plugins/bin'
+[61.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.ps1'
+[61.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.dsv'
+[61.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.sh'
+[61.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.bash'
+[61.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb_nav2_plugins/share/pb_nav2_plugins/package.zsh'
+[61.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb_nav2_plugins/share/colcon-core/packages/pb_nav2_plugins)
+[74.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/terrain_analysis -- -j8 -l8
+[74.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/terrain_analysis
+[75.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis)
+[75.088s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis' for CMake module files
+[75.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/terrain_analysis
+[75.089s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis' for CMake config files
+[75.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'cmake_prefix_path')
+[75.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.ps1'
+[75.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.dsv'
+[75.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.sh'
+[75.090s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/lib'
+[75.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'ld_library_path_lib')
+[75.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/ld_library_path_lib.ps1'
+[75.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/ld_library_path_lib.dsv'
+[75.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/ld_library_path_lib.sh'
+[75.091s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/bin'
+[75.091s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/lib/pkgconfig/terrain_analysis.pc'
+[75.091s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/lib/python3.10/site-packages'
+[75.092s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/bin'
+[75.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.ps1'
+[75.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.dsv'
+[75.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.sh'
+[75.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.bash'
+[75.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.zsh'
+[75.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/terrain_analysis/share/colcon-core/packages/terrain_analysis)
+[75.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis)
+[75.094s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis' for CMake module files
+[75.094s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis' for CMake config files
+[75.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'cmake_prefix_path')
+[75.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.ps1'
+[75.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.dsv'
+[75.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.sh'
+[75.095s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/lib'
+[75.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'ld_library_path_lib')
+[75.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/ld_library_path_lib.ps1'
+[75.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/ld_library_path_lib.dsv'
+[75.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/hook/ld_library_path_lib.sh'
+[75.096s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/bin'
+[75.096s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/lib/pkgconfig/terrain_analysis.pc'
+[75.096s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/lib/python3.10/site-packages'
+[75.096s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/terrain_analysis/bin'
+[75.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.ps1'
+[75.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.dsv'
+[75.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.sh'
+[75.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.bash'
+[75.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/terrain_analysis/share/terrain_analysis/package.zsh'
+[75.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/terrain_analysis/share/colcon-core/packages/terrain_analysis)
+[78.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws/build/small_gicp_relocalization -- -j8 -l8
+[78.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/small_gicp_relocalization
+[79.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(small_gicp_relocalization)
+[79.048s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization' for CMake module files
+[79.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws/build/small_gicp_relocalization
+[79.049s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization' for CMake config files
+[79.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('small_gicp_relocalization', 'cmake_prefix_path')
+[79.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.ps1'
+[79.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.dsv'
+[79.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.sh'
+[79.050s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/lib'
+[79.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('small_gicp_relocalization', 'ld_library_path_lib')
+[79.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/ld_library_path_lib.ps1'
+[79.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/ld_library_path_lib.dsv'
+[79.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/ld_library_path_lib.sh'
+[79.051s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/bin'
+[79.051s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/lib/pkgconfig/small_gicp_relocalization.pc'
+[79.051s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/lib/python3.10/site-packages'
+[79.052s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/bin'
+[79.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.ps1'
+[79.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv'
+[79.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.sh'
+[79.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.bash'
+[79.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.zsh'
+[79.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/small_gicp_relocalization/share/colcon-core/packages/small_gicp_relocalization)
+[79.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(small_gicp_relocalization)
+[79.054s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization' for CMake module files
+[79.054s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization' for CMake config files
+[79.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('small_gicp_relocalization', 'cmake_prefix_path')
+[79.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.ps1'
+[79.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.dsv'
+[79.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.sh'
+[79.055s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/lib'
+[79.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('small_gicp_relocalization', 'ld_library_path_lib')
+[79.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/ld_library_path_lib.ps1'
+[79.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/ld_library_path_lib.dsv'
+[79.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/ld_library_path_lib.sh'
+[79.056s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/bin'
+[79.056s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/lib/pkgconfig/small_gicp_relocalization.pc'
+[79.056s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/lib/python3.10/site-packages'
+[79.056s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/small_gicp_relocalization/bin'
+[79.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.ps1'
+[79.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv'
+[79.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.sh'
+[79.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.bash'
+[79.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.zsh'
+[79.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/small_gicp_relocalization/share/colcon-core/packages/small_gicp_relocalization)
+[100.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/ros_ws/build/point_lio -- -j8 -l8
+[100.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/point_lio': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/ros_ws/build/point_lio
+[100.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_lio)
+[100.747s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio' for CMake module files
+[100.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/ros_ws/build/point_lio
+[100.748s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio' for CMake config files
+[100.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_lio', 'cmake_prefix_path')
+[100.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/point_lio/share/point_lio/hook/cmake_prefix_path.ps1'
+[100.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/point_lio/share/point_lio/hook/cmake_prefix_path.dsv'
+[100.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/point_lio/share/point_lio/hook/cmake_prefix_path.sh'
+[100.749s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/lib'
+[100.749s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/bin'
+[100.749s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/lib/pkgconfig/point_lio.pc'
+[100.750s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/lib/python3.10/site-packages'
+[100.750s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/bin'
+[100.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.ps1'
+[100.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/point_lio/share/point_lio/package.dsv'
+[100.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.sh'
+[100.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.bash'
+[100.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.zsh'
+[100.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/point_lio/share/colcon-core/packages/point_lio)
+[100.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_lio)
+[100.752s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio' for CMake module files
+[100.752s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio' for CMake config files
+[100.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_lio', 'cmake_prefix_path')
+[100.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/point_lio/share/point_lio/hook/cmake_prefix_path.ps1'
+[100.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/point_lio/share/point_lio/hook/cmake_prefix_path.dsv'
+[100.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/point_lio/share/point_lio/hook/cmake_prefix_path.sh'
+[100.753s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/lib'
+[100.753s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/bin'
+[100.753s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/lib/pkgconfig/point_lio.pc'
+[100.753s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/lib/python3.10/site-packages'
+[100.753s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/point_lio/bin'
+[100.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.ps1'
+[100.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/point_lio/share/point_lio/package.dsv'
+[100.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.sh'
+[100.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.bash'
+[100.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/point_lio/share/point_lio/package.zsh'
+[100.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/point_lio/share/colcon-core/packages/point_lio)
+[100.755s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_nav_bringup' with build type 'ament_cmake'
+[100.755s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_nav_bringup'
+[100.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[100.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[100.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb2025_nav_bringup': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/terrain_analysis/lib:/home/adam/ros_ws/install/small_gicp_relocalization/lib:/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/pb_teleop_twist_joy/lib:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib:/home/adam/ros_ws/install/pb_nav2_plugins/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/livox_ros_driver2/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_nav_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb2025_nav_bringup
+[101.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb2025_nav_bringup' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/terrain_analysis/lib:/home/adam/ros_ws/install/small_gicp_relocalization/lib:/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/pb_teleop_twist_joy/lib:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib:/home/adam/ros_ws/install/pb_nav2_plugins/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/livox_ros_driver2/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/ros_ws/src/pb2025_sentry_nav/pb2025_nav_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adam/ros_ws/install/pb2025_nav_bringup
+[101.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb2025_nav_bringup': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/terrain_analysis/lib:/home/adam/ros_ws/install/small_gicp_relocalization/lib:/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/pb_teleop_twist_joy/lib:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib:/home/adam/ros_ws/install/pb_nav2_plugins/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/livox_ros_driver2/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/ros_ws/build/pb2025_nav_bringup -- -j8 -l8
+[101.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb2025_nav_bringup' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/terrain_analysis/lib:/home/adam/ros_ws/install/small_gicp_relocalization/lib:/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/pb_teleop_twist_joy/lib:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib:/home/adam/ros_ws/install/pb_nav2_plugins/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/livox_ros_driver2/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adam/ros_ws/build/pb2025_nav_bringup -- -j8 -l8
+[101.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/ros_ws/build/pb2025_nav_bringup': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/terrain_analysis/lib:/home/adam/ros_ws/install/small_gicp_relocalization/lib:/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/pb_teleop_twist_joy/lib:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib:/home/adam/ros_ws/install/pb_nav2_plugins/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/livox_ros_driver2/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/ros_ws/build/pb2025_nav_bringup
+[101.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb2025_nav_bringup)
+[101.570s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup' for CMake module files
+[101.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/ros_ws/build/pb2025_nav_bringup' returned '0': AMENT_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/ros_ws/install/point_lio:/home/adam/ros_ws/install/pb2025_sentry_nav:/home/adam/ros_ws/install/terrain_analysis:/home/adam/ros_ws/install/small_gicp_relocalization:/home/adam/ros_ws/install/sensor_scan_generation:/home/adam/ros_ws/install/pb_teleop_twist_joy:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller:/home/adam/ros_ws/install/pb_nav2_plugins:/home/adam/ros_ws/install/loam_interface:/home/adam/ros_ws/install/livox_ros_driver2:/home/adam/ros_ws/install/ign_sim_pointcloud_tool:/home/adam/ros_ws/install/fake_vel_transform:/opt/ros/humble LD_LIBRARY_PATH=/home/adam/ros_ws/install/terrain_analysis/lib:/home/adam/ros_ws/install/small_gicp_relocalization/lib:/home/adam/ros_ws/install/sensor_scan_generation/lib:/home/adam/ros_ws/install/pb_teleop_twist_joy/lib:/home/adam/ros_ws/install/pb_omni_pid_pursuit_controller/lib:/home/adam/ros_ws/install/pb_nav2_plugins/lib:/home/adam/ros_ws/install/loam_interface/lib:/home/adam/ros_ws/install/livox_ros_driver2/lib:/home/adam/ros_ws/install/ign_sim_pointcloud_tool/lib:/home/adam/ros_ws/install/fake_vel_transform/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/ros_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adam/ros_ws/build/pb2025_nav_bringup
+[101.571s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup' for CMake config files
+[101.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb2025_nav_bringup', 'cmake_prefix_path')
+[101.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/hook/cmake_prefix_path.ps1'
+[101.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/hook/cmake_prefix_path.dsv'
+[101.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/hook/cmake_prefix_path.sh'
+[101.572s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/bin'
+[101.572s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/lib/pkgconfig/pb2025_nav_bringup.pc'
+[101.573s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/lib/python3.10/site-packages'
+[101.573s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/bin'
+[101.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.ps1'
+[101.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.dsv'
+[101.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.sh'
+[101.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.bash'
+[101.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.zsh'
+[101.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb2025_nav_bringup/share/colcon-core/packages/pb2025_nav_bringup)
+[101.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb2025_nav_bringup)
+[101.574s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup' for CMake module files
+[101.575s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup' for CMake config files
+[101.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb2025_nav_bringup', 'cmake_prefix_path')
+[101.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/hook/cmake_prefix_path.ps1'
+[101.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/hook/cmake_prefix_path.dsv'
+[101.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/hook/cmake_prefix_path.sh'
+[101.576s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/bin'
+[101.576s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/lib/pkgconfig/pb2025_nav_bringup.pc'
+[101.576s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/lib/python3.10/site-packages'
+[101.576s] Level 1:colcon.colcon_core.environment:checking '/home/adam/ros_ws/install/pb2025_nav_bringup/bin'
+[101.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.ps1'
+[101.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.dsv'
+[101.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.sh'
+[101.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.bash'
+[101.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/ros_ws/install/pb2025_nav_bringup/share/pb2025_nav_bringup/package.zsh'
+[101.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/ros_ws/install/pb2025_nav_bringup/share/colcon-core/packages/pb2025_nav_bringup)
+[101.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[101.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[101.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[101.579s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[101.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[101.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[101.583s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[101.596s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[101.597s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/ros_ws/install/local_setup.ps1'
+[101.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/ros_ws/install/_local_setup_util_ps1.py'
+[101.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/ros_ws/install/setup.ps1'
+[101.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/ros_ws/install/local_setup.sh'
+[101.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/ros_ws/install/_local_setup_util_sh.py'
+[101.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/ros_ws/install/setup.sh'
+[101.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/ros_ws/install/local_setup.bash'
+[101.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/ros_ws/install/setup.bash'
+[101.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/ros_ws/install/local_setup.zsh'
+[101.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/ros_ws/install/setup.zsh'

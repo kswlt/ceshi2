@@ -1,0 +1,1 @@
+/home/adam/ros_ws1/build/pb_nav2_plugins/ament_cmake_environment_hooks/local_setup.zsh

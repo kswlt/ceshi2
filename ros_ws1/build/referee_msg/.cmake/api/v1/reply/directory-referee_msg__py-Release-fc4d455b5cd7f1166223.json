@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "referee_msg__py",
+		"source" : "/home/adam/ros_ws1/build/referee_msg/referee_msg__py"
+	}
+}

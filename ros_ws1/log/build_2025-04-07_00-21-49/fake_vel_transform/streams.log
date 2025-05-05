@@ -1,0 +1,35 @@
+[0.061s] Invoking command in '/home/adam/ros_ws1/build/fake_vel_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/fake_vel_transform -- -j8 -l8
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target fake_vel_transform[0m
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target fake_vel_transform_node[0m
+[0.194s] [ 50%] Built target fake_vel_transform_node
+[0.209s] [100%] Built target fake_vel_transform
+[0.270s] Invoked command in '/home/adam/ros_ws1/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/fake_vel_transform -- -j8 -l8
+[0.309s] Invoking command in '/home/adam/ros_ws1/build/fake_vel_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/fake_vel_transform
+[0.383s] -- Install configuration: "Release"
+[0.383s] -- Execute custom install script
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/lib/fake_vel_transform/fake_vel_transform_node
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/include/fake_vel_transform/fake_vel_transform.hpp
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.sh
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.dsv
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/lib/libfake_vel_transform.so
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/launch/fake_vel_transform_launch.py
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/package_run_dependencies/fake_vel_transform
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/parent_prefix_path/fake_vel_transform
+[0.383s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.sh
+[0.386s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.dsv
+[0.396s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/path.sh
+[0.396s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/environment/path.dsv
+[0.396s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.bash
+[0.396s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.sh
+[0.396s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.zsh
+[0.396s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/local_setup.dsv
+[0.396s] -- Symlinking: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/package.dsv
+[0.434s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/packages/fake_vel_transform
+[0.434s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/ament_index/resource_index/rclcpp_components/fake_vel_transform
+[0.434s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.438s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.467s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_libraries-extras.cmake
+[0.467s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig.cmake
+[0.467s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig-version.cmake
+[0.467s] -- Up-to-date symlink: /home/adam/ros_ws1/install/fake_vel_transform/share/fake_vel_transform/package.xml
+[0.485s] Invoked command in '/home/adam/ros_ws1/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/fake_vel_transform

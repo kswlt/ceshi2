@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/static_tf.launch.py
+resource/rm_static_tf
+rm_static_tf/__init__.py
+rm_static_tf/all_static_tf.py
+rm_static_tf.egg-info/PKG-INFO
+rm_static_tf.egg-info/SOURCES.txt
+rm_static_tf.egg-info/dependency_links.txt
+rm_static_tf.egg-info/entry_points.txt
+rm_static_tf.egg-info/requires.txt
+rm_static_tf.egg-info/top_level.txt
+rm_static_tf.egg-info/zip-safe

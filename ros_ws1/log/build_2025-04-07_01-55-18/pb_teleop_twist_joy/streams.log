@@ -1,0 +1,34 @@
+[0.083s] Invoking command in '/home/adam/ros_ws1/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/pb_teleop_twist_joy -- -j8 -l8
+[0.234s] [ 50%] Built target pb_teleop_twist_joy
+[0.245s] [100%] Built target pb_teleop_twist_joy_node
+[0.301s] Invoked command in '/home/adam/ros_ws1/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/adam/ros_ws1/build/pb_teleop_twist_joy -- -j8 -l8
+[0.302s] Invoking command in '/home/adam/ros_ws1/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/pb_teleop_twist_joy
+[0.360s] -- Install configuration: "Release"
+[0.360s] -- Execute custom install script
+[0.360s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/lib/pb_teleop_twist_joy/pb_teleop_twist_joy_node
+[0.360s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/include/pb_teleop_twist_joy/pb_teleop_twist_joy.hpp
+[0.360s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/library_path.sh
+[0.360s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/library_path.dsv
+[0.360s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/lib/libpb_teleop_twist_joy.so
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/config/xbox.config.yaml
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/launch/pb_teleop_twist_joy_launch.py
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/pb_teleop_twist_joy
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/pb_teleop_twist_joy
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/ament_prefix_path.sh
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/ament_prefix_path.dsv
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/path.sh
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/path.dsv
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.bash
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.sh
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.zsh
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.dsv
+[0.361s] -- Symlinking: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.dsv
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/ament_index/resource_index/packages/pb_teleop_twist_joy
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/pb_teleop_twist_joy
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/pb_teleop_twist_joyConfig.cmake
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/pb_teleop_twist_joyConfig-version.cmake
+[0.361s] -- Up-to-date symlink: /home/adam/ros_ws1/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.xml
+[0.387s] Invoked command in '/home/adam/ros_ws1/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/ros_ws1/install/rm_static_tf:/home/adam/ros_ws1/install/my_serial_py:/home/adam/ros_ws1/install/my_nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/adam/ros_ws1/build/pb_teleop_twist_joy

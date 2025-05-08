@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-53ec381ccdc2278d2eb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "terrain_analysis",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis-Release-9d3f95e7d5766b1a4e96.json",
+					"name" : "terrain_analysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis_node-Release-29078832311408333add.json",
+					"name" : "terrain_analysis_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "terrain_analysis_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-terrain_analysis_uninstall-Release-1ce0f053684ec3a7c5da.json",
+					"name" : "terrain_analysis_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f3a0edc24bbf0f8a64f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/build/terrain_analysis",
+		"source" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/src/pb2025_sentry_nav/terrain_analysis"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

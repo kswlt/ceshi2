@@ -1,0 +1,1 @@
+Invoking command in '/home/kswlt/Desktop/Nav导航改进/ros_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kswlt/Desktop/Nav导航改进/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kswlt/Desktop/Nav导航改进/ros_ws/install/ign_sim_pointcloud_tool

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c2072d1eb189bcfa5b28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ign_sim_pointcloud_tool",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_sim_pointcloud_tool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_sim_pointcloud_tool-Release-187d59a8766669dd717b.json",
+					"name" : "ign_sim_pointcloud_tool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_sim_pointcloud_tool_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_sim_pointcloud_tool_node-Release-1082a4f5a4b2f88f945b.json",
+					"name" : "ign_sim_pointcloud_tool_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_sim_pointcloud_tool_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_sim_pointcloud_tool_uninstall-Release-b6e48690448646976a92.json",
+					"name" : "ign_sim_pointcloud_tool_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-12f145b9fa46057edb12.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/build/ign_sim_pointcloud_tool",
+		"source" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

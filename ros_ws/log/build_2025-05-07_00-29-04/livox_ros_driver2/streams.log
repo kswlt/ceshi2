@@ -1,0 +1,96 @@
+[0.030s] Invoking command in '/home/kswlt/Desktop/Nav导航改进/ros_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kswlt/Desktop/Nav导航改进/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kswlt/Desktop/Nav导航改进/ros_ws/install/livox_ros_driver2
+[0.385s] -- The C compiler identification is GNU 11.4.0
+[0.385s] -- The CXX compiler identification is GNU 11.4.0
+[0.385s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.385s] -- Detecting CXX compiler ABI info
+[0.385s] -- Detecting CXX compiler ABI info - done
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.385s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.385s] -- livox_ros_driver2 version: 1.2.4
+[0.385s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.427s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.628s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.631s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.699s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.718s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.755s] -- Looking for pthread.h
+[0.801s] -- Looking for pthread.h - found
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.854s] -- Found Threads: TRUE  
+[0.991s] -- Checking for module 'eigen3'
+[0.999s] --   Found eigen3, version 3.4.0
+[1.020s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.020s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.057s] -- Checking for module 'flann'
+[1.065s] --   Found flann, version 1.9.1
+[1.092s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.093s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.786s] -- Checking for module 'libusb-1.0'
+[1.795s] --   Found libusb-1.0, version 1.0.25
+[1.819s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.820s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.858s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.977s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.981s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.082s] -- Found Qhull version 8.0.2
+[2.186s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.285s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.285s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.286s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.287s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.287s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.288s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.288s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.289s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.289s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.290s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.290s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.291s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.292s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.292s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.293s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.294s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.294s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.295s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.295s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.296s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.297s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.297s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.298s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.298s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.299s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.331s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.424s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):
+[2.424s]   list index: 1 out of range (-1, 0)
+[2.424s] Call Stack (most recent call first):
+[2.424s]   CMakeLists.txt:48 (rosidl_generate_interfaces)
+[2.425s] 
+[2.425s] [0m
+[2.425s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):
+[2.425s]   list index: 1 out of range (-1, 0)
+[2.425s] Call Stack (most recent call first):
+[2.425s]   CMakeLists.txt:48 (rosidl_generate_interfaces)
+[2.425s] 
+[2.425s] [0m
+[2.433s] [31mCMake Error at /opt/ros/humble/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:69 (message):
+[2.433s]   Target dependency '/home/kswlt/Desktop/Nav' does not exist
+[2.433s] Call Stack (most recent call first):
+[2.433s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.433s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.433s]   CMakeLists.txt:48 (rosidl_generate_interfaces)
+[2.433s] 
+[2.433s] [0m
+[2.433s] -- Configuring incomplete, errors occurred!
+[2.433s] See also "/home/kswlt/Desktop/Nav导航改进/ros_ws/build/livox_ros_driver2/CMakeFiles/CMakeOutput.log".

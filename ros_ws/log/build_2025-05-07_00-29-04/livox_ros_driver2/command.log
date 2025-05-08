@@ -1,0 +1,1 @@
+Invoking command in '/home/kswlt/Desktop/Nav导航改进/ros_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kswlt/Desktop/Nav导航改进/ros_ws/src/pb2025_sentry_nav/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kswlt/Desktop/Nav导航改进/ros_ws/install/livox_ros_driver2

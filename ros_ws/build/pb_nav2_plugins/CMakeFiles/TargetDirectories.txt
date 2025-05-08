@@ -1,0 +1,11 @@
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/uninstall.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/pb_nav2_plugins_uninstall.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/pb_back_up_frees_space_behavior.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/layers.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/test.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/edit_cache.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/rebuild_cache.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/list_install_components.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/install.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/install/local.dir
+/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/CMakeFiles/install/strip.dir

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-239f94416cb14d77a6da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pb_nav2_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "layers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-layers-Release-8e94f2339e170ce7e457.json",
+					"name" : "layers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_back_up_frees_space_behavior::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_back_up_frees_space_behavior-Release-3ed6a9d0128493b7dcb2.json",
+					"name" : "pb_back_up_frees_space_behavior",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_nav2_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_nav2_plugins_uninstall-Release-18c56c81f6d744e5be2f.json",
+					"name" : "pb_nav2_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-97a3d284047690d6eaff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/build/pb_nav2_plugins",
+		"source" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/src/pb2025_sentry_nav/pb_nav2_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

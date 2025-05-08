@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9dff0f08d5c6a5389326.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pb_teleop_twist_joy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_teleop_twist_joy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_teleop_twist_joy-Release-b95458878c3060eafa1e.json",
+					"name" : "pb_teleop_twist_joy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_teleop_twist_joy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_teleop_twist_joy_node-Release-68ee7bf1d7a57559cdfe.json",
+					"name" : "pb_teleop_twist_joy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_teleop_twist_joy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_teleop_twist_joy_uninstall-Release-0388acc028fa084c2b52.json",
+					"name" : "pb_teleop_twist_joy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e7314acdca3f12667100.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/build/pb_teleop_twist_joy",
+		"source" : "/home/kswlt/Desktop/Nav\u5bfc\u822a\u6539\u8fdb/ros_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

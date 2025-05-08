@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/libpb_back_up_frees_space_behavior.so" "/home/kswlt/Desktop/Nav导航改进/ros_ws/build/pb_nav2_plugins/liblayers.so" "TARGETS" "pb_back_up_frees_space_behavior" "layers" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

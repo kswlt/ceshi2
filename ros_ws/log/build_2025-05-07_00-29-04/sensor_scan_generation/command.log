@@ -1,0 +1,1 @@
+Invoking command in '/home/kswlt/Desktop/Nav导航改进/ros_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kswlt/Desktop/Nav导航改进/ros_ws/src/pb2025_sentry_nav/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kswlt/Desktop/Nav导航改进/ros_ws/install/sensor_scan_generation

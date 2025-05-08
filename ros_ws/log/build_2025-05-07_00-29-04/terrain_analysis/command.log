@@ -1,0 +1,1 @@
+Invoking command in '/home/kswlt/Desktop/Nav导航改进/ros_ws/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kswlt/Desktop/Nav导航改进/ros_ws/src/pb2025_sentry_nav/terrain_analysis -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kswlt/Desktop/Nav导航改进/ros_ws/install/terrain_analysis

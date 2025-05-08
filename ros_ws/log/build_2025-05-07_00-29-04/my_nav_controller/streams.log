@@ -1,0 +1,25 @@
+[0.631s] Invoking command in '/home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller': PYTHONPATH=/home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller/build --no-deps symlink_data
+[0.785s] running develop
+[0.892s] running egg_info
+[0.892s] creating my_nav_controller.egg-info
+[0.893s] writing my_nav_controller.egg-info/PKG-INFO
+[0.893s] writing dependency_links to my_nav_controller.egg-info/dependency_links.txt
+[0.893s] writing entry points to my_nav_controller.egg-info/entry_points.txt
+[0.893s] writing requirements to my_nav_controller.egg-info/requires.txt
+[0.893s] writing top-level names to my_nav_controller.egg-info/top_level.txt
+[0.893s] writing manifest file 'my_nav_controller.egg-info/SOURCES.txt'
+[0.895s] reading manifest file 'my_nav_controller.egg-info/SOURCES.txt'
+[0.895s] writing manifest file 'my_nav_controller.egg-info/SOURCES.txt'
+[0.896s] running build_ext
+[0.896s] Creating /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/lib/python3.10/site-packages/my-nav-controller.egg-link (link to .)
+[0.897s] Installing send_goal script to /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/lib/my_nav_controller
+[0.897s] 
+[0.897s] Installed /home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller
+[0.897s] running symlink_data
+[0.897s] creating /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/ament_index
+[0.897s] creating /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/ament_index/resource_index
+[0.898s] creating /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/ament_index/resource_index/packages
+[0.898s] symbolically linking /home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller/resource/my_nav_controller -> /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/ament_index/resource_index/packages
+[0.898s] symbolically linking /home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller/package.xml -> /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/my_nav_controller
+[0.898s] creating /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/my_nav_controller/launch
+[0.898s] symbolically linking /home/kswlt/Desktop/Nav导航改进/ros_ws/build/my_nav_controller/launch/navigation_client.launch.py -> /home/kswlt/Desktop/Nav导航改进/ros_ws/install/my_nav_controller/share/my_nav_controller/launch

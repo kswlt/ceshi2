@@ -1,0 +1,3 @@
+[console_scripts]
+send_goal = my_nav_controller.send_goal:main
+
